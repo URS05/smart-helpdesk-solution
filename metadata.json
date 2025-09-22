@@ -1,0 +1,5 @@
+{
+  "name": "POWERGRID Centralized IT Helpdesk",
+  "description": "An AI-powered centralized IT Helpdesk System that consolidates ticketing from multiple platforms into a unified interface, supporting chatbot, web, and mobile ticket registration and resolution.",
+  "requestFramePermissions": []
+}
