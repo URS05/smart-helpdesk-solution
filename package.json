@@ -20,6 +20,10 @@
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   },
-  "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+  "deploy":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
+  }
+  
 }
