@@ -1,0 +1,131 @@
+POWERGRID CENTRALIZED IT HELPDESK
+=====================================
+
+Project Overview
+---------------
+A modern, NLP-powered IT helpdesk system that consolidates ticketing from multiple platforms into a unified interface. The system supports voice interaction, web-based ticket management, and intelligent ticket resolution assistance.
+
+Technologies Used
+----------------
+
+Core Technologies:
+* React v19.1.1
+* TypeScript
+* Vite v6.2.0
+
+UI/Styling:
+* Tailwind CSS
+* Responsive Design
+* Custom SVG Icons
+
+Advanced NLP & Speech Processing:
+* Natural Language Processing Engine
+* Voice-to-Text Integration
+* Intelligent Intent Recognition
+* Multi-language Support
+
+Data Visualization:
+* Recharts v3.2.1
+
+Key Features
+-----------
+
+1. Role-based Access Control
+   - User Dashboard
+   - Admin Dashboard
+   - Technician Dashboard
+
+2. Intelligent Processing Features
+   - Voice-enabled ticket creation
+   - NLP-based ticket classification
+   - Advanced query understanding
+   - Automated response generation
+   - Real-time speech recognition
+
+3. Ticket Management
+   - Multi-source ticket integration (GLPI, Solman, Email, Web)
+   - Priority and status tracking
+   - Comment system
+   - Real-time updates
+
+4. Interactive Dashboards
+   - Ticket analytics
+   - Status tracking
+   - Workload management
+
+Setup Instructions
+----------------
+
+Prerequisites:
+- Node.js (Latest LTS version)
+- npm or yarn package manager
+
+Installation Steps:
+
+1. Clone the repository:
+   git clone [repository-url]
+   cd powergrid-centralized-it-helpdesk
+
+2. Install dependencies:
+   npm install
+
+3. Configure environment:
+   Create .env.local file with:
+   NLP_API_KEY=your_nlp_service_key_here
+   SPEECH_API_KEY=your_speech_service_key_here
+
+4. Start development server:
+   npm run dev
+   (Access at http://localhost:5173)
+
+Production Build:
+   npm run build
+
+Project Structure
+----------------
+powergrid-centralized-it-helpdesk/
+├── components/
+│   ├── Chatbot.tsx
+│   ├── Login.tsx
+│   └── TicketModal.tsx
+├── pages/
+│   ├── AdminDashboard.tsx
+│   ├── TechnicianDashboard.tsx
+│   └── UserDashboard.tsx
+├── services/
+│   ├── nlpService.ts
+│   └── mockData.ts
+└── [configuration files]
+
+Main Features Breakdown
+---------------------
+1. Voice-Enabled Ticket Creation
+   - Speech-to-text conversion
+   - Natural language understanding
+   - Automatic ticket categorization
+
+2. Dashboard Analytics
+   - Real-time ticket status
+   - Performance metrics
+   - Workload distribution
+
+3. Multi-Platform Integration
+   - Email integration
+   - Web interface
+   - Mobile accessibility
+   - Voice interface
+
+4. Security
+   - Role-based access
+   - Secure authentication
+   - Activity logging
+
+Technical Requirements
+--------------------
+- Modern web browser
+- Node.js environment
+- Internet connection for NLP/Voice services
+- Microphone access for voice features
+
+This project is licensed under the MIT License.
+For questions or support, contact the development team.
